@@ -20,6 +20,8 @@
     border: black solid 1px;
     height: 24.7%;
     width: 24.7%;
+    font-size: 10rem;
+    text-align: center;
 }
 
 .sq1 {top: 0.2%; left: 0.2%;}
