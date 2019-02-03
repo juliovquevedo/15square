@@ -1,5 +1,9 @@
 :root {
     box-sizing: border-box;
+    --square-width: 60vw;
+    --third-square-width: 20vw;
+    --color-one: aquamarine;
+    --color-two: coral;
 }
 
 *, ::before, ::after {
@@ -12,23 +16,24 @@ body {
 
 .container {
     position: absolute;
+    left: var(--third-square-width);
     border: black solid 5px;
     border-radius: 1rem;
-/*    height: 800px;*/
-    width: 60vw;
-    height: 60vw;
+    width: var(--square-width);
+    height: var(--square-width);
+    margin: 0 auto;
     background-color: #222222;
 }
 
 .clr1 {
-    background-color: aquamarine;
-    border: aquamarine ridge 4px;
+    background-color: var(--color-one);
+    border: var(--color-one) ridge 4px;
     border-radius: 1rem;
 }
 
 .clr2 {
-    background-color: coral;
-    border: coral ridge 4px;
+    background-color: var(--color-two);
+    border: var(--color-two) ridge 4px;
     border-radius: 1rem;
 }
 
