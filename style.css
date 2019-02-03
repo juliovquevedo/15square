@@ -6,13 +6,16 @@
     box-sizing: inherit;
 }
 
+body {
+    font-family: 'Lato', sans-serif;
+}
 
 .test {
     position: absolute;
     border: black solid 1px;
-/*    padding: 1px;*/
     height: 800px;
     width: 800px;
+    background-color: #222222;
 }
 
 [class^="sq"] {
@@ -22,6 +25,7 @@
     width: 24.7%;
     font-size: 10rem;
     text-align: center;
+    background-color: white;
 }
 
 .sq1 {top: 0.2%; left: 0.2%;}
