@@ -10,12 +10,20 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.test {
+.container {
     position: absolute;
-    border: black solid 1px;
+    border: black solid 5px;
     height: 800px;
     width: 800px;
     background-color: #222222;
+}
+
+.clr1 {
+    background-color: aquamarine;
+}
+
+.clr2 {
+    background-color: coral;
 }
 
 [class^="sq"] {
@@ -25,7 +33,7 @@ body {
     width: 24.7%;
     font-size: 10rem;
     text-align: center;
-    background-color: white;
+/*    background-color: white;*/
 }
 
 .sq1 {top: 0.2%; left: 0.2%;}
