@@ -45,18 +45,19 @@ body {
     text-align: center;
 }
 
-.sq1 {top: 0.2%; left: 0.2%;}
-.sq2 {top: 0.2%; left: 25.2%;}
-.sq3 {top: 0.2%; left: 50.2%;}
-.sq4 {top: 0.2%; left: 75.2%;}
-.sq5 {top: 25.2%; left: 0.2%;}
-.sq6 {top: 25.2%; left: 25.2%;}
-.sq7 {top: 25.2%; left: 50.2%;}
-.sq8 {top: 25.2%; left: 75.2%;}
-.sq9 {top: 50.2%; left: 0.2%;}
-.sq10 {top: 50.2%; left: 25.2%;}
-.sq11 {top: 50.2%; left: 50.2%;}
-.sq12 {top: 50.2%; left: 75.2%;}
-.sq13 {top: 75.2%; left: 0.2%;}
-.sq14 {top: 75.2%; left: 25.2%;}
-.sq15 {top: 75.2%; left: 50.2%;}
+.sq11 {top: 0.2%; left: 0.2%;}
+.sq12 {top: 0.2%; left: 25.2%;}
+.sq13 {top: 0.2%; left: 50.2%;}
+.sq14 {top: 0.2%; left: 75.2%;}
+.sq21 {top: 25.2%; left: 0.2%;}
+.sq22 {top: 25.2%; left: 25.2%;}
+.sq23 {top: 25.2%; left: 50.2%;}
+.sq24 {top: 25.2%; left: 75.2%;}
+.sq31 {top: 50.2%; left: 0.2%;}
+.sq32 {top: 50.2%; left: 25.2%;}
+.sq33 {top: 50.2%; left: 50.2%;}
+.sq34 {top: 50.2%; left: 75.2%;}
+.sq41 {top: 75.2%; left: 0.2%;}
+.sq42 {top: 75.2%; left: 25.2%;}
+.sq43 {top: 75.2%; left: 50.2%;}
+.sq44 {top: 75.2%; left: 75.2%;}
