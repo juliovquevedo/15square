@@ -1,7 +1,7 @@
 :root {
     box-sizing: border-box;
-    --square-width: 60vw;
-    --third-square-width: 20vw;
+    --square-width: 80vw;
+    --third-square-width: 10vw;
     --color-one: aquamarine;
     --color-two: coral;
 }
@@ -41,7 +41,7 @@ body {
     position: absolute;
     height: 24.7%;
     width: 24.7%;
-    font-size: 11vw;
+    font-size: 14.67vw;
     text-align: center;
 }
 
@@ -61,3 +61,25 @@ body {
 .sq42 {top: 75.2%; left: 25.2%;}
 .sq43 {top: 75.2%; left: 50.2%;}
 .sq44 {top: 75.2%; left: 75.2%;}
+
+@media (min-width: 600px) {
+    :root {
+        --square-width: 60vw;
+        --third-square-width: 20vw;
+    }
+    
+    [class^="sq"] {
+        font-size: 11vw;
+    }
+}
+
+@media (min-width: 1000px) {
+    :root {
+        --square-width: 600px;
+        --third-square-width: calc(50vw - 300px);
+    }
+    
+    [class^="sq"] {
+        font-size: 110px;
+    }
+}

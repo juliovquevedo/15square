@@ -1,25 +1,33 @@
 window.onload = function() {
 var cells = [
-    {pos: "p11", movable: false, clear: false, top: "0.2%", left: "0.2%", id: 1},
-    {pos: "p12", movable: false, clear: false, top: "0.2%", left: "25.2%", id: 2},
-    {pos: "p13", movable: false, clear: false, top: "0.2%", left: "50.2%", id: 3},
-    {pos: "p14", movable: false, clear: false, top: "0.2%", left: "75.2%", id: 4},
-    {pos: "p21", movable: false, clear: false, top: "25.2%", left: "0.2%", id: 5},
-    {pos: "p22", movable: false, clear: false, top: "25.2%", left: "25.2%", id: 6},
-    {pos: "p23", movable: false, clear: false, top: "25.2%", left: "50.2%", id: 7},
-    {pos: "p24", movable: false, clear: false, top: "25.2%", left: "75.2%", id: 8},
-    {pos: "p31", movable: false, clear: false, top: "50.2%", left: "0.2%", id: 9},
-    {pos: "p32", movable: false, clear: false, top: "50.2%", left: "25.2%", id: 10},
-    {pos: "p33", movable: false, clear: false, top: "50.2%", left: "50.2%", id: 11},
-    {pos: "p34", movable: true, clear: false, id: 12, top: "50.2%", left: "75.2%"},
-    {pos: "p41", movable: false, clear: false, top: "75.2%", left: "0.2%", id: 13},
-    {pos: "p42", movable: false, clear: false, top: "75.2%", left: "25.2%", id: 14},
-    {pos: "p43", movable: true, clear: false, top: "75.2%", left: "50.2%", id: 15},
-    {pos: "p44", movable: false, clear: true, id: 16, top: "75.2%", left: "75.2%"},
+    {pos: "p11", movable: false, clear: false, top: "0.2%", left: "0.2%", id: 0},
+    {pos: "p12", movable: false, clear: false, top: "0.2%", left: "25.2%", id: 1},
+    {pos: "p13", movable: false, clear: false, top: "0.2%", left: "50.2%", id: 2},
+    {pos: "p14", movable: false, clear: false, top: "0.2%", left: "75.2%", id: 3},
+    {pos: "p21", movable: false, clear: false, top: "25.2%", left: "0.2%", id: 4},
+    {pos: "p22", movable: false, clear: false, top: "25.2%", left: "25.2%", id: 5},
+    {pos: "p23", movable: false, clear: false, top: "25.2%", left: "50.2%", id: 6},
+    {pos: "p24", movable: false, clear: false, top: "25.2%", left: "75.2%", id: 7},
+    {pos: "p31", movable: false, clear: false, top: "50.2%", left: "0.2%", id: 8},
+    {pos: "p32", movable: false, clear: false, top: "50.2%", left: "25.2%", id: 9},
+    {pos: "p33", movable: false, clear: false, top: "50.2%", left: "50.2%", id: 10},
+    {pos: "p34", movable: true, clear: false, id: 11, top: "50.2%", left: "75.2%"},
+    {pos: "p41", movable: false, clear: false, top: "75.2%", left: "0.2%", id: 12},
+    {pos: "p42", movable: false, clear: false, top: "75.2%", left: "25.2%", id: 13},
+    {pos: "p43", movable: true, clear: false, top: "75.2%", left: "50.2%", id: 14},
+    {pos: "p44", movable: false, clear: true, id: 15, top: "75.2%", left: "75.2%"},
 ];
 
 var clear = 15;
    
+
+    
+    
+    
+    
+    
+    
+    
 document.getElementById("p11").onclick = function() { console.log(cells[0]); move(0) };
 document.getElementById("p12").onclick = function() { console.log(cells[1]); move(1) };
 document.getElementById("p13").onclick = function() { console.log(cells[2]); move(2) };
